@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
+  .maincontainer{
+    background-image:linear-gradient(#fff, rgb(0, 132, 255)) ;
+    border: 2px black solid;
+    height: 1000px;
+    padding: 8px;
+    text-align: center;
+    border-style: none;
+    border-style: none;
+
+  }
+  #maintitle1{
+    color: rgb(40, 173, 250);
+  }
+  
+  #maintitle2{
+    color: rgb(60, 60, 242);
+  }
+  .raw1{
+
+    border: 1px black solid;
+    height: 350px;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+  }
+ 
+  .budget{
+    border: 1px black solid;
+    height: 250px;
+    width: 300px;
+   margin-right: 50px;
+   /* padding-top: 60px; */
+   border-radius: 15px;
+   background-color: rgb(148, 231, 248);
+   border-style: none;
+   
+  }
+
+  #bdgt, #title{
+    color: rgb(155, 155, 155);
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    padding: 7px 5px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    border-style: none;
+}
+#cost{
+    color: rgb(155, 155, 155);
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    padding: 7px 5px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 6px; 
+}
+
+  #bdgtbtn, #expbtn{
+    width: 200px;
+    padding: 7px;
+    margin-top: 8px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: rgb(24, 210, 248);
+  }
+
+  #expbtn{
+    width: 200px;
+    padding: 7px;
+    margin-top: 10px;
+  }
+  .expenses{
+    border: 1px black solid;
+    height: 250px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 15px;
+    background-color: rgb(148, 231, 248);
+   border-style: none;
+  }
+  
+
+  .raw2{
+
+    border: 1px black solid;
+    height: 150px;
+    margin-top: 10px;
+    display: flex;
+    gap: 270px;
+    padding: 5px 8px 5px 30px;
+    background-color: rgb(148, 231, 248);
+   border-style: none;
+  }
+  #bud, #exp, #bal{
+    text-align: center;  
+  }
+
+
+
+  .raw3{
+    border: 1px black solid;
+    height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(148, 231, 248);
+   border-style: none;
+  }
+  .myRow{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #resltlist{
+
+    
+    gap: 100px;
+
+  }
+
+
